@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+asr-venv/
+venv/
+env/
+
+# Data & outputs
+data/
+outputs/
+*.wav
+*.mp3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Configs with secrets
+.comet.config
+*.local.yaml
